@@ -509,3 +509,5 @@ async def commit_crime(ctx):
         # Failure
         fine = min(profile['money'] // 4, 100)  # Lose up to 25% or $100, whichever is less
         profile['money'] 
+keep_alive()
+bot.run(os.getenv("TOKEN"))
