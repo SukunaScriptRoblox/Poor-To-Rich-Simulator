@@ -5,9 +5,9 @@ import asyncio
 import random
 import json
 import os
-from datetime import datetime, timedelta
-from replit import db
 from keep_alive import keep_alive
+from datetime import datetime, timedelta
+
 
 # Bot setup
 intents = discord.Intents.default()
